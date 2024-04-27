@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- zona favicon -->
+        <link rel="CaC-Movies icon" href="../favicon.ico" type="image/x-icon">
+        <!-- type puede ser text/html text/css application/javascript image/jpeg audio/mpeg video/mp4 -->
+        <script src="https://kit.fontawesome.com/fa04600604.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/main.css">
+        <title>CaC-Movies, peliculas y series online</title>
+    </head>
+   <body>
+    <header>
+        <!-- diseño de la barra de navegación -->
+        <nav>
+            <!-- espacio del logo -->
+            <a class="nav" href="../index.html"><i class="fa-solid fa-film"></i>CaC-Movies</a>
+            <!-- diseño del menú con etiqueta de listas desordenadas -->
+           
+        </nav>
+    </header>
+    <main>
+<section id="form-wrapper">
+    <form action="#" method="post" novalidate id="form-register">
+        <h2>Registro</h2>
+        <div class="form-control">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" required id="name">
+        </div>
+        <div class="form-control">
+            <label for="last-name">Apellido</label>
+            <input type="text" name="last-name" required id="last-name">
+        </div>
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" name="email" required id="email">
+        </div>
+        <div class="form-control">
+            <label for="passw">Constraseña</label>
+            <input type="password" name="passw" required id="passw">
+        </div>
+        <div class="form-control">
+            <label for="date">Fecha de nacimiento</label>
+            <input type="date" name="name" required id="name">
+        </div>
+        <div class="form-control">
+            <select name="country" id="country" class="form-select">
+             <option value="">País</option>
+             <option value="AR">Argentina</option>
+             <option value="BO">Bolivia</option>
+             <option value="PY">Paraguay</option>
+             <option value="CH">Chile</option>
+ 
+            </select>
+         </div>
+         <div class="form-terms">
+            <div class="terms">
+                <input type="checkbox" id="terms">
+                <label>Acepto términos y condiciones</label>
+            </div>
+         </div>
+         <button type="submit">Registrarse</button>
+         <div class="form-help">
+            <a href="#">¿Necesitas ayuda?</a>
+         </div>
+ </form>
+
+</section>
+    </main>
+    <footer>
+        <!-- por cuestiones de diseño utilizamos elementos a -->
+        <a class="footer" href="#">Términos y condiciones</a> &nbsp;
+        <a class="footer" href="#">Preguntas frecuentes</a> &nbsp;
+        <a class="footer" href="#">Ayuda</a>&nbsp;
+        <a class="footer" href="#">Administrador de Películas</a>&nbsp;
+    </footer>
+   </body>
+</html>
